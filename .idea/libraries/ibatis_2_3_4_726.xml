@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="ibatis-2.3.4.726">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../자바 프로그램/ibatis/ibatis-2.3.4.726.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../자바 프로그램/ibatis/log4j-1.2.17.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../자바 프로그램/ibatis/ojdbc6.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="700.0" prefWidth="80.0" style="-fx-background-color: #eeecdf;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="kr.or.ddit.sw.view.mainview.SlidePaneController">
+    <children>
+        <ImageView fx:id="side_mem_modify" fitHeight="100.0" fitWidth="100.0" layoutY="82.0" pickOnBounds="true" preserveRatio="true">
+            <cursor>
+                <Cursor fx:constant="OPEN_HAND" />
+            </cursor>
+        </ImageView>
+        <ImageView fx:id="side_bill" fitHeight="100.0" fitWidth="100.0" layoutY="217.0" pickOnBounds="true" preserveRatio="true">
+            <cursor>
+                <Cursor fx:constant="OPEN_HAND" />
+            </cursor>
+        </ImageView>
+        <ImageView fx:id="side_coupon" fitHeight="100.0" fitWidth="100.0" layoutY="311.0" pickOnBounds="true" preserveRatio="true">
+            <cursor>
+                <Cursor fx:constant="OPEN_HAND" />
+            </cursor>
+        </ImageView>
+        <ImageView fx:id="side_tellsub" fitHeight="100.0" fitWidth="100.0" layoutX="1.0" layoutY="439.0" pickOnBounds="true" preserveRatio="true">
+            <cursor>
+                <Cursor fx:constant="OPEN_HAND" />
+            </cursor>
+        </ImageView>
+        <ImageView fx:id="side_logout" fitHeight="85.0" fitWidth="85.0" layoutX="8.0" layoutY="569.0" pickOnBounds="true" preserveRatio="true">
+            <cursor>
+                <Cursor fx:constant="OPEN_HAND" />
+            </cursor>
+        </ImageView>
+        <Label fx:id="side_id" layoutX="1.0" layoutY="6.0" prefHeight="50.0" prefWidth="100.0" text="Label">
+            <font>
+                <Font size="17.0" />
+            </font>
+        </Label>
+    </children>
+</AnchorPane>

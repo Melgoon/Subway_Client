@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane fx:controller="kr.or.ddit.sw.view.cart.delireserpayController" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="680.0" prefWidth="900.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <ImageView fx:id="reser" fitHeight="200.0" fitWidth="184.0" layoutX="140.0" layoutY="232.0">
+
+      </ImageView>
+      <ImageView fx:id="deli" fitHeight="200.0" fitWidth="182.0" layoutX="575.0" layoutY="232.0">
+
+      </ImageView>
+   </children>
+</AnchorPane>

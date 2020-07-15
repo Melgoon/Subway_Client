@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Line?>
+
+<AnchorPane prefHeight="900.0" prefWidth="1200.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="kr.or.ddit.sw.view.admintestview.MainAdminController1">
+    <children>
+        <ImageView fx:id="logo" fitHeight="160.0" fitWidth="230.0" layoutX="485.0" layoutY="-34.0" pickOnBounds="true" preserveRatio="true">
+        </ImageView>
+        <ImageView fx:id="jumoon" fitHeight="38.0" fitWidth="150.0" layoutX="71.0" layoutY="130.0" pickOnBounds="true" preserveRatio="true">
+        </ImageView>
+        <ImageView fx:id="jaego" fitHeight="38.0" fitWidth="150.0" layoutX="301.0" layoutY="130.0" pickOnBounds="true" preserveRatio="true">
+        </ImageView>
+        <ImageView fx:id="baljoo" fitHeight="38.0" fitWidth="150.0" layoutX="521.0" layoutY="130.0" pickOnBounds="true" preserveRatio="true">
+
+        </ImageView>
+        <ImageView fx:id="maechool" fitHeight="38.0" fitWidth="150.0" layoutX="741.0" layoutY="130.0" pickOnBounds="true" preserveRatio="true">
+
+        </ImageView>
+        <ImageView fx:id="tellSub" fitHeight="38.0" fitWidth="150.0" layoutX="981.0" layoutY="130.0" pickOnBounds="true" preserveRatio="true">
+
+        </ImageView>
+        <ImageView fx:id="today" fitHeight="192.0" fitWidth="288.0" layoutX="255.0" layoutY="251.0" pickOnBounds="true" preserveRatio="true">
+
+        </ImageView>
+        <Line endX="1157.3665771484375" endY="231.86666870117188" layoutX="6.0" layoutY="-23.0" startX="32.89289093017578" startY="231.86666870117188" />
+      <ImageView fx:id="adminChat" fitHeight="106.0" fitWidth="157.0" layoutX="1037.0" layoutY="784.0" pickOnBounds="true" preserveRatio="true" />
+    </children>
+</AnchorPane>

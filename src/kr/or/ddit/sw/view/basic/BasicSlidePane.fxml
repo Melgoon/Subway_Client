@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="800.0" prefWidth="115.0" style="-fx-background-color: #eeecdf;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="kr.or.ddit.sw.view.basic.BasicSlidePaneController">
+    <children>
+
+
+        <Label fx:id="side_id" layoutX="7.0" layoutY="39.0" prefHeight="50.0" prefWidth="126.0" text="Label">
+            <font>
+                <Font size="17.0" />
+            </font>
+        </Label>
+      <VBox layoutX="5.0" layoutY="89.0" prefHeight="707.0" prefWidth="115.0" spacing="15.0">
+         <children>
+      
+      
+              <ImageView fx:id="alarmView" fitHeight="60.0" fitWidth="80.0" pickOnBounds="true" preserveRatio="true">
+                  <cursor>
+                      <Cursor fx:constant="OPEN_HAND" />
+                  </cursor>
+               <VBox.margin>
+                  <Insets left="20.0" />
+               </VBox.margin>
+              </ImageView>
+              <ImageView fx:id="side_mem_modify" fitHeight="100.0" fitWidth="100.0" layoutX="30.0" pickOnBounds="true" preserveRatio="true">
+                  <cursor>
+                      <Cursor fx:constant="OPEN_HAND" />
+                  </cursor>
+               <VBox.margin>
+                  <Insets left="5.0" />
+               </VBox.margin>
+              </ImageView>
+              <ImageView fx:id="side_bill" fitHeight="100.0" fitWidth="100.0" pickOnBounds="true" preserveRatio="true">
+                  <cursor>
+                      <Cursor fx:constant="OPEN_HAND" />
+                  </cursor>
+               <VBox.margin>
+                  <Insets left="5.0" />
+               </VBox.margin>
+              </ImageView>
+              <ImageView fx:id="side_coupon" fitHeight="100.0" fitWidth="100.0" pickOnBounds="true" preserveRatio="true">
+                  <cursor>
+                      <Cursor fx:constant="OPEN_HAND" />
+                  </cursor>
+               <VBox.margin>
+                  <Insets left="5.0" />
+               </VBox.margin>
+              </ImageView>
+              <ImageView fx:id="side_tellsub" fitHeight="100.0" fitWidth="100.0" pickOnBounds="true" preserveRatio="true">
+                  <cursor>
+                      <Cursor fx:constant="OPEN_HAND" />
+                  </cursor>
+               <VBox.margin>
+                  <Insets left="5.0" />
+               </VBox.margin>
+              </ImageView>
+              <ImageView fx:id="side_logout" fitHeight="100.0" fitWidth="100.0" pickOnBounds="true" preserveRatio="true">
+                  <cursor>
+                      <Cursor fx:constant="OPEN_HAND" />
+                  </cursor>
+               <VBox.margin>
+                  <Insets left="5.0" />
+               </VBox.margin>
+              </ImageView>
+         </children>
+      </VBox>
+    </children>
+</AnchorPane>

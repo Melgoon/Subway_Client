@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXMasonryPane?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="730.0" prefWidth="980.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="kr.or.ddit.sw.view.ordertable.OrderTableViewController">
+   <ScrollPane fx:id="scroll" layoutX="31.0" layoutY="131.0" prefHeight="585.0" prefWidth="918.0">
+     <content>
+       <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="8989.0" prefWidth="899.0">
+            <children>
+               <JFXMasonryPane fx:id="masory" layoutX="12.0" prefHeight="579.0" prefWidth="875.0" />
+            </children>
+         </AnchorPane>
+     </content>
+   </ScrollPane>
+   <ImageView fx:id="step" fitHeight="59.0" fitWidth="200.0" layoutX="399.0" layoutY="51.0" pickOnBounds="true" preserveRatio="true" />
+   <JFXButton fx:id="next" cancelButton="true" disable="true" layoutX="891.0" layoutY="51.0" text="다음" />
+</AnchorPane>

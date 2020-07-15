@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane fx:controller="kr.or.ddit.sw.view.mainview.MainController" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="640.0" prefWidth="980.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <ImageView fx:id="advertisement" fitHeight="339.0" fitWidth="980.0" pickOnBounds="true" preserveRatio="true" />
+
+      <ImageView fx:id="chatbot2" layoutX="155" layoutY="388.0" fitHeight="160.0" fitWidth="188.0" pickOnBounds="true" preserveRatio="true" />
+
+      <!--<JFXButton fx:id="chatbot" buttonType="RAISED" layoutY="391.0" prefHeight="213.0" prefWidth="263.0" style="-fx-background-color: rgb(0, 88, 67);" text="CHATBOT" textFill="WHITE">
+         <font>
+            <Font size="30.0" />
+         </font>
+      </JFXButton>-->
+
+      <ImageView fx:id="honey" layoutX="410" layoutY="388.0" fitHeight="160.0" fitWidth="188.0" pickOnBounds="true" preserveRatio="true" />
+
+      <!--<JFXButton fx:id="naggul" buttonType="RAISED" layoutX="373.0" layoutY="391.0" prefHeight="213.0" prefWidth="263.0" style="-fx-background-color: rgb(0, 88, 67);" text="나만의 꿀조합" textFill="WHITE">
+         <font>
+            <Font size="30.0" />
+         </font>
+      </JFXButton>-->
+
+      <ImageView fx:id="recommend" layoutX="675" layoutY="394.0" fitHeight="150.0" fitWidth="176.0" pickOnBounds="true" preserveRatio="true" />
+
+      <!--<JFXButton fx:id="ssub" buttonType="RAISED" layoutX="717.0" layoutY="391.0" prefHeight="213.0" prefWidth="263.0" style="-fx-background-color: rgb(0, 88, 67);" text="SSUB's 추천메뉴" textFill="WHITE">
+         <font>
+            <Font size="30.0" />
+         </font>
+      </JFXButton>-->
+   </children>
+</AnchorPane>

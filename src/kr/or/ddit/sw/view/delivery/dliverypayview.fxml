@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXCheckBox?>
+<?import com.jfoenix.controls.JFXComboBox?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane fx:controller="kr.or.ddit.sw.view.delivery.deliveryController" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="599.0" prefWidth="850.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <ImageView fx:id="imgur" fitHeight="599.0" fitWidth="950.0" pickOnBounds="true" preserveRatio="true">
+      </ImageView>
+       <ImageView fx:id="kakaopay" layoutX="167.0" layoutY="496.0" pickOnBounds="true" preserveRatio="true"></ImageView>
+      <JFXTextField fx:id="menu" layoutX="177.0" layoutY="100.0" prefHeight="29.0" prefWidth="261.0" />
+      <JFXTextField fx:id="price" layoutX="177.0" layoutY="170.0" prefHeight="29.0" prefWidth="261.0" />
+      <JFXTextField fx:id="myaddr" layoutX="177.0" layoutY="234.0" prefHeight="29.0" prefWidth="261.0" />
+      <JFXTextField fx:id="deladdr" layoutX="177.0" layoutY="300.0" prefHeight="29.0" prefWidth="261.0" />
+      <JFXComboBox fx:id="coupon" layoutX="177.0" layoutY="435.0" prefHeight="29.0" prefWidth="261.0" />
+      <JFXComboBox fx:id="jijum" layoutX="177.0" layoutY="363.0" prefHeight="29.0" prefWidth="261.0" />
+      <JFXButton fx:id="kakao" layoutX="177.0" layoutY="506.0" text="                 " />
+      <TableView fx:id="order" layoutX="509.0" layoutY="63.0" prefHeight="521.0" prefWidth="334.0">
+        <columns>
+          <TableColumn fx:id="menutc" prefWidth="75.0" text="메뉴" />
+          <TableColumn fx:id="pricetc" prefWidth="75.0" text="가격" />
+            <TableColumn fx:id="nametc" prefWidth="75.0" text="구매자명" />
+        </columns>
+      </TableView>
+      <JFXCheckBox fx:id="chk" layoutX="450.0" layoutY="305.0" prefHeight="19.0" prefWidth="63.0" text="동일" />
+   </children>
+</AnchorPane>

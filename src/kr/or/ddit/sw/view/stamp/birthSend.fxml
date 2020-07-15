@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="900.0" style="-fx-background-color: #f4f4f4;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="kr.or.ddit.sw.view.stamp.SendStampController">
+   <children>
+      <JFXButton fx:id="btn_send1" layoutX="230.0" layoutY="244.0" prefHeight="112.0" prefWidth="441.0" style="-fx-background-color: pink;" text="생일쿠폰 보내기">
+         <font>
+            <Font size="31.0" />
+         </font>
+      </JFXButton>
+   </children>
+</AnchorPane>

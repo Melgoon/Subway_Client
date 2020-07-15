@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXPasswordField?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="900.0" prefWidth="1200.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="kr.or.ddit.sw.view.owner.OwnerInsert">
+   <children>
+      <ImageView fx:id="imgView" fitHeight="900.0" fitWidth="1221.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../../../images/ownerInsert.png" />
+         </image></ImageView>
+      <JFXTextField fx:id="jijumName" focusColor="#ffca0a" layoutX="477.0" layoutY="193.0" prefHeight="50.0" prefWidth="400.0" />
+      <JFXTextField fx:id="email" focusColor="#ffca0a" layoutX="479.0" layoutY="475.0" prefHeight="45.0" prefWidth="395.0" />
+      <JFXTextField fx:id="hp" focusColor="#ffca0a" layoutX="479.0" layoutY="674.0" prefHeight="45.0" prefWidth="395.0" />
+      <JFXPasswordField fx:id="pass1" focusColor="#ffca0a" layoutX="477.0" layoutY="290.0" prefHeight="50.0" prefWidth="400.0" />
+      <JFXPasswordField fx:id="pass2" focusColor="#ffca0a" layoutX="477.0" layoutY="381.0" prefHeight="50.0" prefWidth="400.0" />
+      <JFXButton fx:id="confirm" buttonType="RAISED" layoutX="450.0" layoutY="769.0" prefHeight="45.0" prefWidth="100.0" style="-fx-background-color: rgb(0, 88, 67);" text="Confirm" textFill="WHITE" />
+      <JFXButton fx:id="cancel" buttonType="RAISED" layoutX="640.0" layoutY="769.0" prefHeight="45.0" prefWidth="100.0" style="-fx-background-color: #ffca0a;" text="Cancel" />
+      <JFXTextField fx:id="adr" focusColor="#ffca0a" layoutX="480.0" layoutY="573.0" prefHeight="45.0" prefWidth="395.0" />
+   </children>
+</AnchorPane>

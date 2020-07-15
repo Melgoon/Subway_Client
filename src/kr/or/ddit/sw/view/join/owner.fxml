@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXPasswordField?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="900.0" prefWidth="1200.0" style="-fx-background-color: #009744;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="kr.or.ddit.sw.view.join.JoinOwnerController">
+    <ImageView fx:id="imgView" fitHeight="900.0" fitWidth="1200.0" pickOnBounds="true" preserveRatio="true">
+
+    </ImageView>
+   <JFXButton fx:id="join_email_chk_btn" buttonType="RAISED" layoutX="825.0" layoutY="356.0" prefHeight="33.0" prefWidth="129.0" style="-fx-background-color: #009744;" text="인증번호전송" textFill="WHITE">
+      <font>
+         <Font size="17.0" />
+      </font></JFXButton>
+   <JFXButton fx:id="join_cancel" layoutX="660.0" layoutY="774.0" prefHeight="50.0" prefWidth="150.0" style="-fx-background-color: rgb(0, 88, 67);" text="취소" textFill="WHITE">
+      <font>
+         <Font size="25.0" />
+      </font></JFXButton>
+   <JFXButton fx:id="join_confirm" buttonType="RAISED" layoutX="410.0" layoutY="774.0" prefHeight="50.0" prefWidth="150.0" style="-fx-background-color: #ffca0a;" text="확인">
+      <font>
+         <Font size="25.0" />
+      </font></JFXButton>
+   <JFXTextField fx:id="join_id" focusColor="#ffca0a" layoutX="453.0" layoutY="149.0" prefHeight="30.0" prefWidth="350.0" promptText="지점명" />
+   <JFXPasswordField fx:id="join_pw" focusColor="#ffca0a" layoutX="453.0" layoutY="215.0" prefHeight="30.0" prefWidth="350.0" promptText="PW" />
+   <JFXPasswordField fx:id="join_repw" focusColor="#ffca0a" layoutX="453.0" layoutY="286.0" prefHeight="30.0" prefWidth="350.0" promptText="PW 재입력" />
+   <JFXTextField fx:id="join_email" focusColor="#ffca0a" layoutX="453.0" layoutY="357.0" prefHeight="30.0" prefWidth="350.0" promptText="EMAIL" />
+   <JFXTextField fx:id="join_hp" focusColor="#ffca0a" layoutX="453.0" layoutY="491.0" prefHeight="29.0" prefWidth="350.0" promptText="전화번호" />
+   <JFXTextField fx:id="join_adr" focusColor="#ffca0a" layoutX="453.0" layoutY="561.0" prefHeight="29.0" prefWidth="350.0" promptText="주소" />
+   <JFXTextField fx:id="join_email_chk" focusColor="#ffca0a" layoutX="453.0" layoutY="427.0" prefHeight="29.0" prefWidth="350.0" promptText="인증번호 입력" />
+   <ImageView fx:id="fx_captcha" fitHeight="136.0" fitWidth="329.0" layoutX="464.0" layoutY="621.0" pickOnBounds="true" preserveRatio="true" />
+   <JFXButton fx:id="join_email_chk1" buttonType="RAISED" layoutX="825.0" layoutY="425.0" prefHeight="33.0" prefWidth="129.0" style="-fx-background-color: #009744;" text="인증" textFill="WHITE">
+      <font>
+         <Font size="17.0" />
+      </font>
+   </JFXButton>
+   <JFXTextField fx:id="join_captcha_num" focusColor="#ffca0a" layoutX="814.0" layoutY="621.0" promptText="캡차번호입력" />
+   <JFXButton fx:id="join_adr_src" buttonType="RAISED" layoutX="826.0" layoutY="559.0" prefHeight="33.0" prefWidth="129.0" style="-fx-background-color: #009744;" text="검색" textFill="WHITE">
+      <font>
+         <Font size="17.0" />
+      </font>
+   </JFXButton>
+   <JFXButton fx:id="join_captcha_re" buttonType="RAISED" layoutX="823.0" layoutY="673.0" prefHeight="33.0" prefWidth="129.0" style="-fx-background-color: #009744;" text="새로 고침" textFill="WHITE">
+      <font>
+         <Font size="17.0" />
+      </font>
+   </JFXButton>
+   <JFXButton fx:id="join_captcha_re1" buttonType="RAISED" layoutX="823.0" layoutY="724.0" prefHeight="33.0" prefWidth="129.0" style="-fx-background-color: #009744;" text="캡차 인증" textFill="WHITE">
+      <font>
+         <Font size="17.0" />
+      </font>
+   </JFXButton>
+</AnchorPane>

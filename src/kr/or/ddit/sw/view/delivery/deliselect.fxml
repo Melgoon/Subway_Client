@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXComboBox?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane fx:controller="kr.or.ddit.sw.view.delivery.DeliveryManagementSelectController" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="525.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <ImageView fx:id="imgur" fitHeight="525.0" fitWidth="600.0">
+      </ImageView>
+      <JFXButton fx:id="ok" layoutX="191.0" layoutY="463.0" prefHeight="29.0" prefWidth="84.0" style="-fx-background-color: rgb(0, 88, 67);" text="접수" />
+      <JFXButton fx:id="reset" layoutX="321.0" layoutY="463.0" prefHeight="29.0" prefWidth="84.0" style="-fx-background-color: #009744;" text="거부" />
+      <JFXTextField fx:id="menu" layoutX="138.0" layoutY="126.0" prefHeight="29.0" prefWidth="206.0" />
+      <JFXTextField fx:id="adr" layoutX="138.0" layoutY="197.0" prefHeight="29.0" prefWidth="298.0" />
+      <JFXTextField fx:id="price" layoutX="380.0" layoutY="126.0" prefHeight="29.0" prefWidth="84.0" />
+      <JFXComboBox fx:id="time" layoutX="180.0" layoutY="263.0" prefHeight="29.0" prefWidth="214.0" />
+      <JFXTextField fx:id="index" layoutY="492.0" />
+   </children>
+</AnchorPane>

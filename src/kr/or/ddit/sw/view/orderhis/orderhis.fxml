@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="kr.or.ddit.sw.view.orderhis.OrderHisCon">
+    <children>
+        <TableView fx:id="tableview" prefHeight="400.0" prefWidth="600.0">
+            <columns>
+                <TableColumn style="-fx-alignment: CENTER;" fx:id="num" prefWidth="75.0" text="주문번호" />
+                <TableColumn fx:id="text" prefWidth="239.0" text="주문내역" />
+                <TableColumn style="-fx-alignment: CENTER-RIGHT;" fx:id="price" prefWidth="101.0" text="금액" />
+                <TableColumn style="-fx-alignment: CENTER;" fx:id="date" prefWidth="184.0" text="날짜" />
+            </columns>
+        </TableView>
+    </children>
+</AnchorPane>

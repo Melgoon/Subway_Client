@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Pagination?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="680.0" prefWidth="900.0" style="-fx-background-color: #FFFFF0;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="kr.or.ddit.sw.view.tellsub.TellSubMenagementController">
+   <children>
+       <Pagination prefHeight="680.0" prefWidth="900.0" />
+      <TableView fx:id="table" layoutY="29.0" prefHeight="577.0" prefWidth="900.0">
+        <columns>
+          <TableColumn style="-fx-alignment: CENTER;" fx:id="indextc" prefWidth="71.0" text="NUM" />
+          <TableColumn fx:id="titletc" prefWidth="163.0"  text="제목" />
+            <TableColumn fx:id="nametc" prefWidth="175.0" style="-fx-alignment: center" text="고객명" />
+            <TableColumn fx:id="sysdatetc" prefWidth="177.0" style="-fx-alignment: center" text="방문일자" />
+            <TableColumn style="-fx-alignment: CENTER;" fx:id="yesorno" prefWidth="196.0" text="처리여부" />
+        </columns>
+      </TableView>
+
+
+   </children>
+</AnchorPane>

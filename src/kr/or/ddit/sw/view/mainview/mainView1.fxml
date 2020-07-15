@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXDrawer?>
+<?import com.jfoenix.controls.JFXHamburger?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+
+<BorderPane fx:id="bp" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="900.0" prefWidth="1200.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="kr.or.ddit.sw.view.mainview.MainViewController">
+   <top>
+      <AnchorPane prefHeight="206.0" prefWidth="1200.0" BorderPane.alignment="CENTER">
+         <children>
+            <ImageView fx:id="menu_logo" fitHeight="260.0" fitWidth="230.0" layoutX="485.0" pickOnBounds="true" preserveRatio="true">
+
+            </ImageView>
+            <ImageView fx:id="menu_intro" fitHeight="25.0" fitWidth="100.0" layoutX="158.0" layoutY="161.0" pickOnBounds="true" preserveRatio="true">
+
+            </ImageView>
+            <ImageView fx:id="menu_order" fitHeight="25.0" fitWidth="100.0" layoutX="354.0" layoutY="161.0" pickOnBounds="true" preserveRatio="true">
+
+            </ImageView>
+            <ImageView fx:id="menu_find_jijun" fitHeight="25.0" fitWidth="100.0" layoutX="550.0" layoutY="161.0" pickOnBounds="true" preserveRatio="true">
+
+            </ImageView>
+            <ImageView fx:id="menu_event" fitHeight="25.0" fitWidth="100.0" layoutX="767.0" layoutY="161.0" pickOnBounds="true" preserveRatio="true">
+
+            </ImageView>
+            <ImageView fx:id="menu_notice" fitHeight="25.0" fitWidth="100.0" layoutX="983.0" layoutY="161.0" pickOnBounds="true" preserveRatio="true">
+
+            </ImageView>
+            <JFXHamburger fx:id="hamburger" layoutY="84.0" prefHeight="93.0" prefWidth="102.0" />
+         </children>
+      </AnchorPane>
+   </top>
+   <left>
+      <JFXDrawer fx:id="drawer" BorderPane.alignment="CENTER" />
+   </left>
+   <center>
+
+   </center>
+   <right>
+      <AnchorPane prefHeight="200.0" prefWidth="100.0" BorderPane.alignment="CENTER" />
+   </right>
+</BorderPane>

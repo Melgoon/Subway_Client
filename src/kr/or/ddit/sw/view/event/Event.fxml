@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="730.0" prefWidth="970.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="kr.or.ddit.sw.view.event.EventController">
+   <ImageView fx:id="left" fitHeight="180.0" fitWidth="300.0" layoutX="41.0" layoutY="176.0" pickOnBounds="true" preserveRatio="true" />
+   <ImageView fx:id="right" fitHeight="180.0" fitWidth="300.0" layoutX="612.0" layoutY="176.0" pickOnBounds="true" preserveRatio="true" />
+   <ImageView fx:id="sub" fitHeight="150.0" fitWidth="200.0" layoutX="114.0" layoutY="45.0" pickOnBounds="true" preserveRatio="true" />
+   <ImageView fx:id="me" fitHeight="150.0" fitWidth="200.0" layoutX="681.0" layoutY="45.0" pickOnBounds="true" preserveRatio="true" />
+   <ImageView fx:id="title" fitHeight="73.0" fitWidth="200.0" layoutX="400.0" layoutY="375.0" pickOnBounds="true" preserveRatio="true" />
+   <ImageView fx:id="result" fitHeight="100.0" fitWidth="300.0" layoutX="430.0" layoutY="450.0" pickOnBounds="true" preserveRatio="true" />
+   <JFXTextField fx:id="input" alignment="CENTER" layoutX="400.0" layoutY="629.0" prefHeight="40.0" prefWidth="200.0" promptText="가위바위보 입력">
+      <font>
+         <Font size="15.0" />
+      </font>
+   </JFXTextField>
+   <JFXButton fx:id="btn_start" layoutX="450.0" layoutY="567.0" prefHeight="40.0" prefWidth="100.0" style="-fx-background-color: red; -fx-background-radius: 30;" text="START" textFill="WHITE">
+      <font>
+         <Font size="20.0" />
+      </font>
+   </JFXButton>
+</AnchorPane>

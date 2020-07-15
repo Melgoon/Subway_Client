@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXComboBox?>
+<?import com.jfoenix.controls.JFXDatePicker?>
+<?import com.jfoenix.controls.JFXPasswordField?>
+<?import com.jfoenix.controls.JFXRadioButton?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane fx:controller="kr.or.ddit.sw.view.memup.MemberUpdateController" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="549.0" prefWidth="886.0" style="-fx-background-color: #FFFFF0;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <ImageView fx:id="MainView" fitHeight="540.0" fitWidth="886.0" layoutX="-2.0" pickOnBounds="true" preserveRatio="true" />
+      <JFXPasswordField fx:id="passTf" layoutX="272.0" layoutY="126.0" prefHeight="29.0" prefWidth="266.0" />
+      <JFXPasswordField fx:id="passChkTf" layoutX="272.0" layoutY="180.0" prefHeight="29.0" prefWidth="266.0" />
+      <JFXDatePicker fx:id="birDp" layoutX="269.0" layoutY="233.0" prefHeight="29.0" prefWidth="303.0" />
+      <JFXRadioButton fx:id="radioM" layoutX="296.0" layoutY="291.0" text="남" userData="M"/>
+      <JFXRadioButton fx:id="radioG" layoutX="380.0" layoutY="291.0" text="여" userData="G"/>
+      <JFXTextField fx:id="emailTf" layoutX="251.0" layoutY="334.0" />
+      <JFXComboBox fx:id="emailCv" layoutX="430.0" layoutY="334.0" prefHeight="29.0" prefWidth="165.0" />
+      <JFXTextField fx:id="addrTf" layoutX="251.0" layoutY="436.0" prefHeight="29.0" prefWidth="257.0" />
+      <JFXButton fx:id="cancleBtn" layoutX="386.0" layoutY="484.0" prefHeight="29.0" prefWidth="90.0" text="취소" />
+      <JFXButton fx:id="insertBtn" layoutX="273.0" layoutY="484.0" prefHeight="29.0" prefWidth="90.0" text="저장" />
+      <JFXTextField fx:id="hpTf1" layoutX="251.0" layoutY="385.0" prefHeight="29.0" prefWidth="257.0" />
+      <ImageView fx:id="FileimgV" fitHeight="78.0" fitWidth="139.0" layoutX="52.0" layoutY="49.0" pickOnBounds="true" preserveRatio="true" />
+      <Label fx:id="labelName" layoutX="228.0" layoutY="59.0" prefHeight="29.0" prefWidth="90.0" text="누구님" />
+      <Label fx:id="passLabel" layoutX="565.0" layoutY="195.0" prefHeight="19.0" prefWidth="187.0" />
+   </children>
+</AnchorPane>

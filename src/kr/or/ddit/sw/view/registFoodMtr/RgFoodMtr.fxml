@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXComboBox?>
+<?import com.jfoenix.controls.JFXTextArea?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="900.0" prefWidth="1200.0" style="-fx-background-color: #f4f4f4;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="kr.or.ddit.sw.view.registFoodMtr.RegistFoodMtrController">
+   <children>
+      <ImageView fx:id="img_FoodMtback" fitHeight="966.0" fitWidth="1294.0" layoutX="-44.0" layoutY="-33.0" pickOnBounds="true" preserveRatio="true">
+      </ImageView>
+      <JFXTextField fx:id="txtf_mtr_name" layoutX="491.0" layoutY="302.0" prefHeight="38.0" prefWidth="274.0" />
+      <JFXTextField fx:id="txtf_mtr_cal" layoutX="491.0" layoutY="371.0" prefHeight="38.0" prefWidth="274.0" />
+      <JFXTextArea fx:id="txta_mtr_detail" layoutX="491.0" layoutY="450.0" prefHeight="61.0" prefWidth="274.0" />
+      <JFXComboBox fx:id="combo_mtr_div" layoutX="491.0" layoutY="642.0" prefHeight="38.0" prefWidth="274.0" />
+      <JFXButton fx:id="btn_RegistFoodMtr" layoutX="681.0" layoutY="693.0" prefHeight="49.0" prefWidth="112.0" style="-fx-background-color: #ffca0a;" text="등록" textAlignment="CENTER" textFill="WHITE">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </JFXButton>
+      <JFXButton fx:id="btn_Cansel" layoutX="800.0" layoutY="693.0" prefHeight="49.0" prefWidth="112.0" style="-fx-background-color: rgb(0, 88, 67);" text="취소" textAlignment="CENTER" textFill="WHITE">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </JFXButton>
+      <JFXButton fx:id="btn_registImg" layoutX="345.0" layoutY="532.0" prefHeight="49.0" prefWidth="112.0" style="-fx-background-color: #ffca0a;" text="사진등록" textFill="WHITE">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </JFXButton>
+      <ImageView fx:id="img_FoodMtr" fitHeight="100.0" fitWidth="133.0" layoutX="491.0" layoutY="531.0" pickOnBounds="true" preserveRatio="true" />
+   </children>
+</AnchorPane>

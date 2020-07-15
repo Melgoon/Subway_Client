@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXMasonryPane?>
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="680.0" prefWidth="980.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="kr.or.ddit.sw.view.honeycombi.HoneyCombiController">
+   <ScrollPane layoutY="173.0" prefHeight="493.0" prefWidth="980.0">
+      <content>
+         <JFXMasonryPane fx:id="manso" prefHeight="551.0" prefWidth="961.0" />
+      </content>
+   </ScrollPane>
+   <ImageView fx:id="naggul" fitHeight="75.0" fitWidth="216.0" layoutX="382.0" layoutY="26.0" pickOnBounds="true" preserveRatio="true">
+      <cursor>
+         <Cursor fx:constant="OPEN_HAND" />
+      </cursor>
+   </ImageView>
+   <JFXButton fx:id="createna" layoutX="794.0" layoutY="111.0" prefHeight="54.0" prefWidth="172.0" text="나만의꿀조합 작성!" />
+</AnchorPane>

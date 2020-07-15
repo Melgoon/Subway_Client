@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="5c108b90-b861-4b99-8516-1f3f28e970c0" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/kr/or/ddit/sw/view/hambuger" beforeDir="true" afterPath="$PROJECT_DIR$/src/kr/or/ddit/sw/view/hambugermenu" afterDir="true" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1biiPtkvTeKZRGmluWO0VIhQMhj" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+    <option name="showMembers" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="oracle" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Subway_Server" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="zielu.svntoolbox.app.config" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\user\Desktop\Subway_Client\res" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\user\Desktop\Subway_Client\src\kr\or\ddit\sw\sql" />
+      <recent name="C:\Users\user\Desktop\Subway_Client\res" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="LoginMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="kr.or.ddit.sw.main.LoginMain" />
+      <module name="Subway_Client" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="kr.or.ddit.sw.main.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.LoginMain" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration" cleanupOnStartRun="true">
+    <configuration>C:\Users\user\AppData\Roaming\Subversion</configuration>
+    <supportedVersion>125</supportedVersion>
+  </component>
+  <component name="SvnFileUrlMappingImpl">
+    <option name="myMappingRoots">
+      <list>
+        <SvnCopyRootSimple>
+          <option name="myVcsRoot" value="C:\Users\user\Desktop\Subway\Subway_Client" />
+          <option name="myCopyRoot" value="C:\Users\user\Desktop\Subway\Subway_Client" />
+        </SvnCopyRootSimple>
+      </list>
+    </option>
+    <option name="myMoreRealMappingRoots">
+      <list>
+        <SvnCopyRootSimple>
+          <option name="myVcsRoot" value="C:\Users\user\Desktop\Subway\Subway_Client" />
+          <option name="myCopyRoot" value="C:\Users\user\Desktop\Subway\Subway_Client" />
+        </SvnCopyRootSimple>
+      </list>
+    </option>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="5c108b90-b861-4b99-8516-1f3f28e970c0" name="Default Changelist" comment="" />
+      <created>1589121293769</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1589121293769</updated>
+      <workItem from="1589121296666" duration="3180000" />
+      <workItem from="1589155037672" duration="14000" />
+      <workItem from="1589171931918" duration="3369000" />
+      <workItem from="1589176345448" duration="313000" />
+      <workItem from="1589176877722" duration="8148000" />
+      <workItem from="1589190268242" duration="3355000" />
+      <workItem from="1589200084857" duration="1225000" />
+      <workItem from="1589209074632" duration="6520000" />
+      <workItem from="1589242593091" duration="225000" />
+      <workItem from="1589245315696" duration="2391000" />
+      <workItem from="1589258270135" duration="994000" />
+    </task>
+    <task id="LOCAL-00001">
+      <created>1589215327647</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1589215327647</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="cut" />
+    <MESSAGE value="first commit&#10;" />
+    <MESSAGE value="delect&#10;" />
+    <MESSAGE value="second commit" />
+    <MESSAGE value="comit" />
+    <MESSAGE value="delete" />
+    <MESSAGE value="Client" />
+    <MESSAGE value="&#10;" />
+    <option name="LAST_COMMIT_MESSAGE" value="" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="361" y="70" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1589179433909">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="361" y="70" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1589179433909" />
+    <state x="574" y="96" key="#com.intellij.ide.util.MemberChooser" timestamp="1589183344420">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="574" y="96" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1589183344420" />
+    <state x="362" y="0" key="CommitChangelistDialog2" timestamp="1589215310081">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="362" y="0" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1589215310081" />
+    <state x="464" y="153" key="FileChooserDialogImpl" timestamp="1589200121376">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="464" y="153" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1589200121376" />
+    <state width="1493" height="210" key="GridCell.Tab.0.bottom" timestamp="1589185451935">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1589185451935" />
+    <state width="1493" height="210" key="GridCell.Tab.0.center" timestamp="1589185451935">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1589185451935" />
+    <state width="1493" height="210" key="GridCell.Tab.0.left" timestamp="1589185451935">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1589185451935" />
+    <state width="1493" height="210" key="GridCell.Tab.0.right" timestamp="1589185451935">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1589185451935" />
+    <state width="196" height="477" key="HiddenNamespacesPopup" timestamp="1589178884330">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="196" height="477" key="HiddenNamespacesPopup/0.0.1536.824@0.0.1536.824" timestamp="1589178884330" />
+    <state x="249" y="0" key="SettingsEditor" timestamp="1589199849823">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="249" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1589199849823" />
+    <state x="93" y="93" width="1350" height="638" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog" timestamp="1589191087392">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="93" y="93" width="1350" height="638" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog/0.0.1536.824@0.0.1536.824" timestamp="1589191087392" />
+    <state x="584" y="251" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1589215341365">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="584" y="251" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.824@0.0.1536.824" timestamp="1589215341365" />
+    <state x="180" y="0" key="new project wizard" timestamp="1589198399498">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="180" y="0" key="new project wizard/0.0.1536.824@0.0.1536.824" timestamp="1589198399498" />
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1589182415825">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1589182415825" />
+    <state x="552" y="95" width="537" height="633" key="svn.repositoryBrowser" timestamp="1589191163540">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="552" y="95" width="537" height="633" key="svn.repositoryBrowser/0.0.1536.824@0.0.1536.824" timestamp="1589191163540" />
+    <state x="568" y="300" key="svn.upgradeDialog" timestamp="1589200124197">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="568" y="300" key="svn.upgradeDialog/0.0.1536.824@0.0.1536.824" timestamp="1589200124197" />
+    <state x="452" y="268" key="svn4idea.checkout.options" timestamp="1589200123173">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="452" y="268" key="svn4idea.checkout.options/0.0.1536.824@0.0.1536.824" timestamp="1589200123173" />
+    <state x="673" y="236" key="svn4idea.delete.options" timestamp="1589198520315">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="673" y="236" key="svn4idea.delete.options/0.0.1536.824@0.0.1536.824" timestamp="1589198520315" />
+    <state x="514" y="178" key="svn4idea.import.options" timestamp="1589198575730">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="514" y="178" key="svn4idea.import.options/0.0.1536.824@0.0.1536.824" timestamp="1589198575730" />
+    <state x="440" y="210" width="682" height="403" key="svn4idea.mkdir.options" timestamp="1589198567535">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="440" y="210" width="682" height="403" key="svn4idea.mkdir.options/0.0.1536.824@0.0.1536.824" timestamp="1589198567535" />
+  </component>
+</project>

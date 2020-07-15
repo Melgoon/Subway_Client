@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<?import com.jfoenix.controls.JFXTextField?>
+<?import com.jfoenix.controls.JFXTextArea?>
+<?import com.jfoenix.controls.JFXButton?>
+<AnchorPane prefHeight="525" prefWidth="600" xmlns="http://javafx.com/javafx/10.0.2-internal"
+            xmlns:fx="http://javafx.com/fxml/1" fx:controller="kr.or.ddit.sw.view.notice.RegistNoticeController">
+    <children>
+        <ImageView fx:id="registNotice" fitHeight="525" fitWidth="600"  pickOnBounds="true" preserveRatio="true"/>
+
+        <DatePicker fx:id="dp_notice_sysdate" layoutX="148" layoutY="165" prefHeight="30.0" prefWidth="400.0"/>
+        <JFXTextField fx:id="txtf_notice_title" alignment="CENTER" focusColor="#ffca0a" layoutX="148" layoutY="106" prefHeight="30.0" prefWidth="400.0" unFocusColor="WHITE">
+        </JFXTextField>
+        <JFXTextArea fx:id="txta_notice_contents" focusColor="#009744" layoutX="148" layoutY="232" prefHeight="180.0" prefWidth="400.0" />
+        <JFXButton fx:id="btn_RegistNotice" layoutX="474" layoutY="461" prefHeight="49.0" prefWidth="112.0" style="-fx-background-color: rgb(0, 88, 67);" text="확인" textFill="WHITE" />
+        <JFXButton fx:id="btn_cancel" layoutX="348" layoutY="461" prefHeight="49.0" prefWidth="112.0" style="-fx-background-color: #ffca0a;" text="취소" />
+
+    </children>
+</AnchorPane>
